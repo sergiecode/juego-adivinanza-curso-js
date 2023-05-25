@@ -19,16 +19,12 @@ Esta línea de código genera un número aleatorio entre 1 y 100 y lo guarda en 
 
 ### Obtener elementos del DOM
 
-javascriptCopy code
-
 `let numeroEntrada = document.getElementById('numeroEntrada');
 let mensaje = document.getElementById('mensaje');` 
 
 Estas líneas de código obtienen referencias a los elementos del Document Object Model (DOM) utilizando el método `getElementById()`. El elemento con el id "numeroEntrada" representa el campo de entrada donde el usuario ingresa su número, y el elemento con el id "mensaje" muestra mensajes de retroalimentación al usuario.
 
 ### Función para comprobar el número ingresado
-
-javascriptCopy code
 
 `function chequearResultado() {
     let numeroIngresado = parseInt(numeroEntrada.value);
