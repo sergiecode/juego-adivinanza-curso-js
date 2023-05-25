@@ -11,8 +11,6 @@ El archivo Javascript principal es `script.js`, que contiene las siguientes func
 
 ### Generar un número aleatorio
 
-javascriptCopy code
-
 `let numeroAzar = Math.floor(Math.random() * 100) + 1;` 
 
 Esta línea de código genera un número aleatorio entre 1 y 100 y lo guarda en la variable `numeroAzar`. Utilizamos `Math.random()` para generar un número decimal entre 0 y 1, luego lo multiplicamos por 100 para obtener un número entre 0 y 100, y finalmente utilizamos `Math.floor()` para redondear hacia abajo y obtener un número entero entre 0 y 99. Al sumar 1 al resultado, obtenemos un número aleatorio entre 1 y 100.
